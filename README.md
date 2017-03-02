@@ -51,7 +51,7 @@ This is example for bad naming:
 ```
   double m = 350.00;
   double n = m/35.00;
-  System.out.print("You have %.2f dollars",n);
+  System.out.printf("You have %.2f dollars",n);
 
 
 ```
@@ -62,10 +62,13 @@ You can make it easier to read
  ```
  double thaiMoney = 350.00;
  double usMoney = thaiMoney/35.00;
- System.out.print("You have %.2f dollars",usMoney);
+ System.out.printf("You have %.2f dollars",usMoney);
 
 ```
 
+Exercise
+------
+[Cick Here](https://github.com/kaizofaria/codeguide/blob/master/src/codeguide/Exercise.java)
 
 
 Useful References
